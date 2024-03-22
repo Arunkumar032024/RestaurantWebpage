@@ -1,0 +1,215 @@
+@media (max-width: 1192px) {
+    /* header section design  */
+    .header .left{
+        width: 70%;
+    }
+}
+@media (max-width: 1080px) {
+    /* header section design  */
+    .header .left{
+        width: 80%;
+    }
+}
+@media (max-width: 992px) {
+    /* header section design  */
+    .header .left{
+        width: 85%;
+    }
+
+    /* team section design  */
+    .team-section div{
+        width: 45%;
+    }
+
+    /* contact section design  */
+    .contact-section div{
+        width: 45%;
+    }
+}
+@media (max-width: 767px) {
+    /* header section design  */
+    .header{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    .header .left{
+        width: 100%;
+    }
+
+    /* content section design  */
+    header .content-section p{
+        font-size: 3.5rem;
+    }
+
+    /* gallery section design  */
+    .gallery-section{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .gallery-section .left,
+    .gallery-section .right{
+        width: 99%;
+    }
+
+    /* about section design  */
+    .about-section{
+        flex-direction: column;
+    }
+
+    .about-section .left,
+    .about-section .right{
+        width: 100%;
+    }
+
+    /* home section design  */
+    .home-section div{
+        width: 50%;
+    }
+    /* bite section design  */
+    .menu-section h2{
+        font-size: 2rem;
+    }
+    .menu-section .main-div{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media (max-width: 592px) {
+    /* header section design  */
+    .header .left{
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    /* content section design  */
+    header .content-section p{
+        font-size: 2.5rem;
+    }
+    header .content-section .greet{
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+    /* para section design  */
+    .para-section{
+        padding: 2rem;
+    }
+
+    /* .news-section design */
+    .news-section .left p:nth-child(2),
+    .news-section .right p:nth-child(2){
+        font-size: 1.5rem;
+    }
+
+    /* event-section design */
+    .event-section .left p:nth-child(2),
+    .event-section .right p:nth-child(2){
+        font-size: 1.5rem;
+    }
+
+    /* bite section design  */
+    .menu-section .main-div{
+        grid-template-columns: 100%;
+    }
+    /* contact section design */
+    .contact-section div{
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    /* content section design  */
+    
+    header .content-section p{
+        font-size: 2rem;
+    }
+
+    /* testimonial section design  */
+    .testimonial-section{
+        padding: 1.5rem;
+    }
+
+    /* gallery section design  */
+    .gallery-section .left .top,
+    .gallery-section .right .top{
+        margin-bottom: 10px;
+    }
+    .gallery-section .left .bottom,
+    .gallery-section .right .top{
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .gallery-section .left .bottom-left,
+    .gallery-section .left .bottom-right,
+    .gallery-section .right .top-left,
+    .gallery-section .right .top-right{
+        width: 100%;
+        min-height: 48vh;
+    }
+
+    /* news-section design */
+    .news-section .left,
+    .news-section .middle,
+    .news-section .right{
+        width: 100%;
+        min-height: 100vw;
+    }
+
+    /* event-section design */
+    .event-section .left,
+    .event-section .middle,
+    .event-section .right{
+        width: 100%;
+        min-height: 100vw;
+        padding-top: 3rem;
+    }
+
+    /* team section design  */
+    .team-section div{
+        width: 100%;
+    }
+
+    /* home section design  */
+    .home-section div{
+        width: 100%;
+    }
+
+    /* bite section design  */
+    .menu-section{
+        padding: 3rem 1rem;
+    }
+    .menu-section h2{
+        font-size: 1.5rem;
+    }
+
+    /* contact section design */
+    .contact-section{
+        padding: 1.5rem;
+    }
+}
+@media (max-width: 333px) {
+    /* content section design  */
+    header .content-section p{
+        font-size: 1.5rem;
+    }
+
+    /* logo section design  */
+    .logo-section{
+        padding: 3rem 0;
+    }
+    .logo{
+        width: 95%;
+    }
+    .logo img{
+        width: 100px;
+    }
+
+    /* team section design  */
+    .team-section div img{
+        width: 60%;
+    }
+}
